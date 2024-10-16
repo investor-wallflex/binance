@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;}
+   
+.container{
+    border: solid black;
+    width: 400px;
+    height: 1000px;
+    background: black;
+    color: white;
+    padding: 20px;
+    padding-left: 10px;
+    max-height: fit-content;
+}
+.logosection{
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+   
+   
+    
+    
+}
+.logosection img{
+    width: 40px;
+     
+}
+
+.logosection h3{
+    color: rgb(240, 185, 11);
+    align-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+
+
+}
+.loginText{
+    margin-top: 20px;
+    font-family:sans-serif;
+}
+.emailInputDiv{
+    margin-top: 30px;
+}
+.emailInputDiv input{
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 10px;
+    border: solid gray;
+    background-color: black;
+    color:white ;
+}
+input :hover{
+    color: rgb(240, 185, 11); }
+   
+   
+.emailInputDiv label{
+    font-family: sans-serif;
+    color: gray;
+ } 
+   
+ .nextButtonDiv{
+    margin-top: 20px;
+ }
+.nextButtonDiv button{
+    width: 410px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: rgb(240, 185, 11); 
+    font-size: medium;
+    font-weight: bolder;
+    box-shadow: none;
+   
+    
+}
+.orDiv{
+    padding: 0px 10px;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+hr{
+    width: 180px;
+}
+.or{
+    padding: 5px;
+    font-family: sans-serif;
+}
+.googleImage{
+    width: 20px;
+    border-radius: 20px;
+}
+.googleButton{
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 10px;
+    justify-content: center;
+}
+
+.continueWithDiv{
+    margin-top: 20px;
+ }
+.continueWithDiv button{
+    width: 410px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid gray; 
+    font-size: medium;
+    font-weight: bolder;
+    box-shadow: none;
+}
+.create{
+    margin-top: 30px;
+    font-size: medium;
+}
+    .create{
+        margin-top: 30px;
+        font-size: medium;
+        
+    }
+    .writeUp{
+        margin-top: 30px;
+        font-size: small;
+        font-family: sans-serif;
+        line-height: 25px;
+        text-align: start;
+    }
+    
+   
+    
+    .create p{
+        color: rgb(240, 185, 11);
+        font-family: sans-serif;
+    }
+    
+    .created{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        color: grey;
+        font-family: sans-serif;
+        font-size: medium;
+        
+    }
+
+   .created img{
+    width: 14px;
+    align-items: center;
+   }
+   span{
+    color: rgb(240, 185, 11); ; 
+   }
+
+   @media screen (max-width:400px) {
+    .container {
+        width: 80%;
+
+    }
+   }
+   
